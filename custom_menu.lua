@@ -1,7 +1,7 @@
 local Menu
 
 net.Receive("F4Menu", function()
-	if(Menu == nil)
+	if(Menu == nil) then
 		Menu = vgui.Create("DFrame")
 		Menu:SetSize(500, 500)
 		Menu:SetPos(ScrW()/2 - 250, ScrH()/2 - 250)
